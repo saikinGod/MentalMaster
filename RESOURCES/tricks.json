@@ -1,0 +1,1530 @@
+[
+    {
+        "id": 1,
+        "category": "addition",
+        "title": "Adding Numbers Close to Powers of 10",
+        "difficulty": "Easy",
+        "description": "When adding numbers close to 100, 1000, etc., use complements.",
+        "steps": [
+            "Example: 98 + 97",
+            "Think: (100 - 2) + (100 - 3)",
+            "Add: 100 + 100 = 200",
+            "Subtract complements: 200 - 2 - 3 = 195"
+        ],
+        "example": "98 + 97 = 195",
+        "tip": "This works great for mental math when numbers are close to round figures!"
+    },
+    {
+        "id": 2,
+        "category": "addition",
+        "title": "Left to Right Addition",
+        "difficulty": "Easy",
+        "description": "Add from left to right for faster mental calculation.",
+        "steps": [
+            "Example: 456 + 328",
+            "Add hundreds: 400 + 300 = 700",
+            "Add tens: 50 + 20 = 70, total = 770",
+            "Add ones: 6 + 8 = 14, total = 784"
+        ],
+        "example": "456 + 328 = 784",
+        "tip": "This method keeps running totals in your head more naturally!"
+    },
+    {
+        "id": 3,
+        "category": "addition",
+        "title": "Adding Three Numbers at Once",
+        "difficulty": "Medium",
+        "description": "Group and add three numbers efficiently.",
+        "steps": [
+            "Example: 47 + 35 + 23",
+            "Look for pairs that make 10: 7+3=10",
+            "Add tens: 40+30+20 = 90",
+            "Add ones: (7+3) + 5 = 15",
+            "Combine: 90 + 15 = 105"
+        ],
+        "example": "47 + 35 + 23 = 105",
+        "tip": "Look for complements to 10 first!"
+    },
+    {
+        "id": 4,
+        "category": "addition",
+        "title": "Adding by Breaking Numbers",
+        "difficulty": "Easy",
+        "description": "Break difficult numbers into easier parts.",
+        "steps": [
+            "Example: 67 + 28",
+            "Break 28 into 20 + 8",
+            "Add 67 + 20 = 87",
+            "Then add 87 + 8 = 95"
+        ],
+        "example": "67 + 28 = 95",
+        "tip": "Break into tens and ones for easier mental math!"
+    },
+    {
+        "id": 5,
+        "category": "subtraction",
+        "title": "All from 9 and Last from 10 (Nikhilam)",
+        "difficulty": "Medium",
+        "description": "Subtract from powers of 10 using this Vedic sutra.",
+        "steps": [
+            "Example: 1000 - 357",
+            "Subtract each digit from 9, except the last from 10",
+            "(9-3) (9-5) (10-7) = 6 4 3",
+            "Answer: 643"
+        ],
+        "example": "1000 - 357 = 643",
+        "tip": "Works perfectly for subtracting from 10, 100, 1000, etc.!"
+    },
+    {
+        "id": 6,
+        "category": "subtraction",
+        "title": "Complement Method",
+        "difficulty": "Medium",
+        "description": "Subtract by adding the complement.",
+        "steps": [
+            "Example: 82 - 47",
+            "Find complement of 47 from 100: 53",
+            "Add: 82 + 53 = 135",
+            "Subtract 100 (or remove the leading 1): 135 - 100 = 35"
+        ],
+        "example": "82 - 47 = 35",
+        "tip": "Great for two-digit subtractions!"
+    },
+    {
+        "id": 7,
+        "category": "subtraction",
+        "title": "Subtraction by Adding Up",
+        "difficulty": "Easy",
+        "description": "Count up from smaller number to larger.",
+        "steps": [
+            "Example: 83 - 57",
+            "From 57 to 60 = 3",
+            "From 60 to 80 = 20",
+            "From 80 to 83 = 3",
+            "Total: 3 + 20 + 3 = 26"
+        ],
+        "example": "83 - 57 = 26",
+        "tip": "Sometimes adding is easier than subtracting!"
+    },
+    {
+        "id": 8,
+        "category": "subtraction",
+        "title": "Left to Right Subtraction",
+        "difficulty": "Easy",
+        "description": "Subtract from left to right for mental calculation.",
+        "steps": [
+            "Example: 847 - 253",
+            "Hundreds: 800 - 200 = 600",
+            "Tens: 40 - 50 = -10, adjust: 600 - 10 = 590",
+            "Ones: 7 - 3 = 4, result: 590 + 4 = 594"
+        ],
+        "example": "847 - 253 = 594",
+        "tip": "Keep track of borrowing as you go left to right!"
+    },
+    {
+        "id": 9,
+        "category": "multiplication",
+        "title": "Multiply by 11 (Two Digits)",
+        "difficulty": "Easy",
+        "description": "Quick trick for multiplying any two-digit number by 11.",
+        "steps": [
+            "Example: 45 x 11",
+            "Keep first digit: 4__",
+            "Add the two digits: 4 + 5 = 9",
+            "Keep last digit: __5",
+            "Answer: 495"
+        ],
+        "example": "45 x 11 = 495",
+        "tip": "If the sum is > 9, carry over to the first digit!"
+    },
+    {
+        "id": 10,
+        "category": "multiplication",
+        "title": "Multiply Numbers Close to 100 (Nikhilam)",
+        "difficulty": "Medium",
+        "description": "For numbers close to base 100, use this Vedic method.",
+        "steps": [
+            "Example: 98 x 96",
+            "Find complements: 98 is -2 from 100, 96 is -4 from 100",
+            "Cross subtract: 98 - 4 = 94 (or 96 - 2 = 94)",
+            "Multiply complements: (-2) x (-4) = 08",
+            "Answer: 9408"
+        ],
+        "example": "98 x 96 = 9408",
+        "tip": "Works for numbers close to any base (10, 100, 1000)!"
+    },
+    {
+        "id": 11,
+        "category": "multiplication",
+        "title": "Vertically and Crosswise (Urdhva-Tiryagbhyam)",
+        "difficulty": "Hard",
+        "description": "Universal multiplication method for any numbers.",
+        "steps": [
+            "Example: 23 x 12",
+            "Ones place (vertically): 3 x 2 = 6",
+            "Tens place (crosswise): (2 x 2) + (3 x 1) = 4 + 3 = 7",
+            "Hundreds place (vertically): 2 x 1 = 2",
+            "Answer: 276"
+        ],
+        "example": "23 x 12 = 276",
+        "tip": "This method works for multiplying any two numbers!"
+    },
+    {
+        "id": 12,
+        "category": "multiplication",
+        "title": "Squaring Numbers Ending in 5",
+        "difficulty": "Easy",
+        "description": "Lightning fast method for squaring numbers ending in 5.",
+        "steps": [
+            "Example: 65²",
+            "Take the first digit: 6",
+            "Multiply by next number: 6 x 7 = 42",
+            "Append 25: 4225"
+        ],
+        "example": "65² = 4225",
+        "tip": "Always ends in 25! Works for 15², 25², 35², etc."
+    },
+    {
+        "id": 13,
+        "category": "multiplication",
+        "title": "Multiply by 5",
+        "difficulty": "Easy",
+        "description": "Fast trick for multiplying by 5.",
+        "steps": [
+            "Example: 48 x 5",
+            "Divide the number by 2: 48 ÷ 2 = 24",
+            "Multiply by 10: 24 x 10 = 240"
+        ],
+        "example": "48 x 5 = 240",
+        "tip": "Same as dividing by 2 and multiplying by 10!"
+    },
+    {
+        "id": 14,
+        "category": "multiplication",
+        "title": "Multiply by 9 Using Fingers",
+        "difficulty": "Easy",
+        "description": "Use your fingers to multiply by 9 (up to 9x10).",
+        "steps": [
+            "Example: 9 x 7",
+            "Hold up 10 fingers",
+            "Bend down the 7th finger from left",
+            "Count fingers left of bent (6) and right (3)",
+            "Answer: 63"
+        ],
+        "example": "9 x 7 = 63",
+        "tip": "A fun visual method for kids!"
+    },
+    {
+        "id": 15,
+        "category": "multiplication",
+        "title": "Multiply by 25",
+        "difficulty": "Easy",
+        "description": "Quick method for multiplying by 25.",
+        "steps": [
+            "Example: 16 x 25",
+            "Divide by 4: 16 ÷ 4 = 4",
+            "Multiply by 100: 4 x 100 = 400"
+        ],
+        "example": "16 x 25 = 400",
+        "tip": "25 is 100/4, so divide by 4 and multiply by 100!"
+    },
+    {
+        "id": 16,
+        "category": "multiplication",
+        "title": "Squaring Numbers Near 50",
+        "difficulty": "Medium",
+        "description": "Fast squaring for numbers close to 50.",
+        "steps": [
+            "Example: 48²",
+            "Find difference from 50: 50 - 48 = 2",
+            "Subtract from 25: 25 - 2 = 23",
+            "Square the difference: 2² = 04",
+            "Answer: 2304"
+        ],
+        "example": "48² = 2304",
+        "tip": "Base method around 25 for quick calculations!"
+    },
+    {
+        "id": 17,
+        "category": "multiplication",
+        "title": "Multiply Two-Digit Numbers (Both End in 5)",
+        "difficulty": "Medium",
+        "description": "Special case when both numbers end in 5 and first digits are close.",
+        "steps": [
+            "Example: 25 x 45 (Difference is even)",
+            "Multiply first digits: 2 x 4 = 8",
+            "Average first digits: (2 + 4) / 2 = 3",
+            "Add: 8 + 3 = 11",
+            "Append 25: 1125"
+        ],
+        "example": "25 x 45 = 1125",
+        "tip": "This has variations. If first digits diff is odd (e.g., 35x65), append 75!"
+    },
+    {
+        "id": 18,
+        "category": "division",
+        "title": "Divide by 5",
+        "difficulty": "Easy",
+        "description": "Quick method for dividing by 5.",
+        "steps": [
+            "Example: 340 ÷ 5",
+            "Multiply by 2: 340 x 2 = 680",
+            "Divide by 10: 680 ÷ 10 = 68"
+        ],
+        "example": "340 ÷ 5 = 68",
+        "tip": "Multiply by 2 and move decimal point left!"
+    },
+    {
+        "id": 19,
+        "category": "division",
+        "title": "Divide by 9",
+        "difficulty": "Medium",
+        "description": "Pattern-based division by 9.",
+        "steps": [
+            "Example: 234 ÷ 9",
+            "First digit of quotient: 2",
+            "Add to next digit: 2 + 3 = 5",
+            "Second digit of quotient: 5",
+            "Add to next digit: 5 + 4 = 9 (This is the remainder)",
+            "Since remainder is 9, add 1 to quotient (25+1) and remainder is 0",
+            "Answer: 26"
+        ],
+        "example": "234 ÷ 9 = 26",
+        "tip": "Sum of digits divisible by 9 means no remainder!"
+    },
+    {
+        "id": 20,
+        "category": "division",
+        "title": "Divide by 4",
+        "difficulty": "Easy",
+        "description": "Quick two-step division by 4.",
+        "steps": [
+            "Example: 88 ÷ 4",
+            "Divide by 2: 88 ÷ 2 = 44",
+            "Divide by 2 again: 44 ÷ 2 = 22"
+        ],
+        "example": "88 ÷ 4 = 22",
+        "tip": "Division by 4 is just dividing by 2 twice!"
+    },
+    {
+        "id": 21,
+        "category": "division",
+        "title": "Divide by 25",
+        "difficulty": "Easy",
+        "description": "Fast division by 25.",
+        "steps": [
+            "Example: 800 ÷ 25",
+            "Multiply by 4: 800 x 4 = 3200",
+            "Divide by 100: 3200 ÷ 100 = 32"
+        ],
+        "example": "800 ÷ 25 = 32",
+        "tip": "25 is 100/4, so multiply by 4 and divide by 100!"
+    },
+    {
+        "id": 22,
+        "category": "division",
+        "title": "Check Division by 3",
+        "difficulty": "Easy",
+        "description": "Quickly check if a number is divisible by 3.",
+        "steps": [
+            "Example: Is 147 divisible by 3?",
+            "Sum digits: 1 + 4 + 7 = 12",
+            "Is 12 divisible by 3? Yes.",
+            "Therefore, 147 is divisible by 3."
+        ],
+        "example": "147 ÷ 3 = 49",
+        "tip": "If sum of digits is divisible by 3, the number is too!"
+    },
+    {
+        "id": 23,
+        "category": "division",
+        "title": "Divide by 15",
+        "difficulty": "Medium",
+        "description": "Efficient method for dividing by 15.",
+        "steps": [
+            "Example: 180 ÷ 15",
+            "Divide by 3: 180 ÷ 3 = 60",
+            "Divide by 5: 60 ÷ 5 = 12"
+        ],
+        "example": "180 ÷ 15 = 12",
+        "tip": "15 = 3 x 5, so divide by both!"
+    },
+    {
+        "id": 24,
+        "category": "percentage",
+        "title": "Find 15% Quickly",
+        "difficulty": "Easy",
+        "description": "Simple method for calculating 15%.",
+        "steps": [
+            "Example: 15% of 80",
+            "Find 10%: 80 x 0.1 = 8",
+            "Find 5%: 8 ÷ 2 = 4",
+            "Add them: 8 + 4 = 12"
+        ],
+        "example": "15% of 80 = 12",
+        "tip": "15% = 10% + 5% (half of 10%)"
+    },
+    {
+        "id": 25,
+        "category": "percentage",
+        "title": "Reverse Percentage",
+        "difficulty": "Medium",
+        "description": "Switch the numbers for easier calculation.",
+        "steps": [
+            "Example: 8% of 50",
+            "Instead calculate: 50% of 8",
+            "50% of 8 = 4",
+            "Answer: 4"
+        ],
+        "example": "8% of 50 = 50% of 8 = 4",
+        "tip": "A% of B = B% of A (commutative property)!"
+    },
+    {
+        "id": 26,
+        "category": "percentage",
+        "title": "Percentage Increase/Decrease",
+        "difficulty": "Medium",
+        "description": "Quick method for percentage changes.",
+        "steps": [
+            "Example: Increase 80 by 25%",
+            "Find 25%: 80 x 0.25 = 20",
+            "Add to original: 80 + 20 = 100",
+            "Or multiply by 1.25: 80 x 1.25 = 100"
+        ],
+        "example": "80 increased by 25% = 100",
+        "tip": "For increase use (1 + rate), for decrease use (1 - rate)!"
+    },
+    {
+        "id": 27,
+        "category": "percentage",
+        "title": "Find 20% Quickly",
+        "difficulty": "Easy",
+        "description": "Fast method for 20% calculation.",
+        "steps": [
+            "Example: 20% of 150",
+            "Divide by 5: 150 ÷ 5 = 30",
+            "Answer: 30"
+        ],
+        "example": "20% of 150 = 30",
+        "tip": "20% is the same as dividing by 5!"
+    },
+    {
+        "id": 28,
+        "category": "percentage",
+        "title": "Find 25% Quickly",
+        "difficulty": "Easy",
+        "description": "Instant 25% calculation.",
+        "steps": [
+            "Example: 25% of 88",
+            "Divide by 4: 88 ÷ 4 = 22",
+            "Answer: 22"
+        ],
+        "example": "25% of 88 = 22",
+        "tip": "25% is one quarter, so divide by 4!"
+    },
+    {
+        "id": 29,
+        "category": "percentage",
+        "title": "Find 50% Quickly",
+        "difficulty": "Easy",
+        "description": "Simplest percentage calculation.",
+        "steps": [
+            "Example: 50% of 76",
+            "Divide by 2: 76 ÷ 2 = 38",
+            "Answer: 38"
+        ],
+        "example": "50% of 76 = 38",
+        "tip": "50% is half, just divide by 2!"
+    },
+    {
+        "id": 30,
+        "category": "percentage",
+        "title": "Calculate Discount Price",
+        "difficulty": "Medium",
+        "description": "Find final price after discount.",
+        "steps": [
+            "Example: 30% off $80",
+            "Find discount: 80 x 0.30 = 24",
+            "Subtract: 80 - 24 = 56",
+            "Or directly: 80 x 0.70 = 56"
+        ],
+        "example": "$80 with 30% off = $56",
+        "tip": "Multiply by (1 - discount rate) for direct calculation!"
+    },
+    {
+        "id": 31,
+        "category": "multiplication",
+        "title": "Multiply by 99, 999, etc.",
+        "difficulty": "Medium",
+        "description": "Multiply by (100 - 1), (1000 - 1), etc.",
+        "steps": [
+            "Example: 46 x 99",
+            "Think: 46 x (100 - 1)",
+            "Distribute: 46 x 100 - 46 x 1",
+            "Calculate: 4600 - 46 = 4554"
+        ],
+        "example": "46 x 99 = 4554",
+        "tip": "This is much faster than long multiplication!"
+    },
+    {
+        "id": 32,
+        "category": "multiplication",
+        "title": "Multiply by 11 (Any Number with Carry)",
+        "difficulty": "Medium",
+        "description": "Extends the two-digit rule for any number, showing carries.",
+        "steps": [
+            "Example: 587 x 11",
+            "Bring down last digit: __7",
+            "Add: 8 + 7 = 15. Write 5, carry 1. Result: __57",
+            "Add: 5 + 8 = 13. Add carry 1 = 14. Write 4, carry 1. Result: _457",
+            "Bring down first digit (5), add carry 1 = 6. Result: 6457"
+        ],
+        "example": "587 x 11 = 6457",
+        "tip": "Start from the right, write the digit, and carry the ten!"
+    },
+    {
+        "id": 33,
+        "category": "multiplication",
+        "title": "Multiply Numbers Above 100 (Nikhilam)",
+        "difficulty": "Medium",
+        "description": "For numbers just over base 100, use this Vedic method.",
+        "steps": [
+            "Example: 104 x 103",
+            "Find surplus: 104 is +4, 103 is +3",
+            "Cross-add: 104 + 3 = 107 (or 103 + 4 = 107)",
+            "Multiply surplus: 4 x 3 = 12",
+            "Answer: 10712"
+        ],
+        "example": "104 x 103 = 10712",
+        "tip": "The result of multiplying surplus must be two digits (use 08 if 4x2)."
+    },
+    {
+        "id": 34,
+        "category": "division",
+        "title": "Check Division by 4",
+        "difficulty": "Easy",
+        "description": "Quickly check if a number is divisible by 4.",
+        "steps": [
+            "Example: Is 532 divisible by 4?",
+            "Look at the last two digits: 32",
+            "Is 32 divisible by 4? Yes (32 ÷ 4 = 8)",
+            "Therefore, 532 is divisible by 4."
+        ],
+        "example": "532 is divisible by 4 (532 ÷ 4 = 133).",
+        "tip": "If the last two digits are divisible by 4, the whole number is!"
+    },
+    {
+        "id": 35,
+        "category": "division",
+        "title": "Check Division by 6",
+        "difficulty": "Easy",
+        "description": "Check divisibility by 2 and 3.",
+        "steps": [
+            "Example: Is 432 divisible by 6?",
+            "Rule: Must be divisible by 2 AND 3.",
+            "1. Is it even? Yes, ends in 2.",
+            "2. Sum of digits: 4 + 3 + 2 = 9. Is 9 divisible by 3? Yes.",
+            "Since it passes both tests, it is divisible by 6."
+        ],
+        "example": "432 is divisible by 6 (432 ÷ 6 = 72).",
+        "tip": "A number must be even AND have a digit sum divisible by 3."
+    },
+    {
+        "id": 36,
+        "category": "division",
+        "title": "Check Division by 8",
+        "difficulty": "Medium",
+        "description": "Quickly check if a number is divisible by 8.",
+        "steps": [
+            "Example: Is 7120 divisible by 8?",
+            "Look at the last three digits: 120",
+            "Is 120 divisible by 8? Yes (120 ÷ 8 = 15)",
+            "Therefore, 7120 is divisible by 8."
+        ],
+        "example": "7120 is divisible by 8 (7120 ÷ 8 = 890).",
+        "tip": "For 4, check last two digits. For 8, check last three!"
+    },
+    {
+        "id": 37,
+        "category": "multiplication",
+        "title": "Squaring Numbers Above 50",
+        "difficulty": "Medium",
+        "description": "Fast squaring for numbers just over 50.",
+        "steps": [
+            "Example: 54²",
+            "Find surplus over 50: 54 - 50 = 4",
+            "Add surplus to 25: 25 + 4 = 29",
+            "Square the surplus: 4² = 16",
+            "Answer: 2916"
+        ],
+        "example": "54² = 2916",
+        "tip": "This is the companion to the 'near 50' trick (ID 16). Add to 25 instead of subtracting."
+    },
+    {
+        "id": 38,
+        "category": "percentage",
+        "title": "Finding 1% and 10% (Building Block)",
+        "difficulty": "Easy",
+        "description": "Use 1% and 10% as building blocks for any percentage.",
+        "steps": [
+            "Example: Find 23% of 400",
+            "Find 10%: 400 ÷ 10 = 40",
+            "Find 1%: 400 ÷ 100 = 4",
+            "Calculate 20%: 2 x 10% = 2 x 40 = 80",
+            "Calculate 3%: 3 x 1% = 3 x 4 = 12",
+            "Add: 80 + 12 = 92"
+        ],
+        "example": "23% of 400 = 92",
+        "tip": "This is the most flexible percentage method. 41% = 4 * (10%) + 1 * (1%)."
+    },
+    {
+        "id": 39,
+        "category": "percentage",
+        "title": "Find Original Price After Discount",
+        "difficulty": "Hard",
+        "description": "Calculate the original price before a discount was applied.",
+        "steps": [
+            "Example: A shirt costs $40 after a 20% discount. What was the original price?",
+            "If 20% was off, $40 is 80% (100% - 20%) of the original price.",
+            "Equation: 0.80 x Original = $40",
+            "Solve: Original = $40 ÷ 0.80",
+            "Answer: $50"
+        ],
+        "example": "$40 after 20% off means original price was $50.",
+        "tip": "Divide the final price by (1 - discount rate)."
+    },
+    {
+        "id": 40,
+        "category": "percentage",
+        "title": "Chained Percentages (Sequential Discounts)",
+        "difficulty": "Hard",
+        "description": "Calculate the effect of multiple percentage changes in a row.",
+        "steps": [
+            "Example: $100 item is 20% off, then an extra 10% off.",
+            "Step 1 (20% off): 100 x 0.80 = $80",
+            "Step 2 (10% off $80): 80 x 0.90 = $72",
+            "Final Price: $72"
+        ],
+        "example": "$100 with 20% off, then 10% off = $72",
+        "tip": "This is NOT a 30% discount! (which would be $70). Always calculate one after the other."
+    },
+    {
+        "id": 41,
+        "category": "multiplication",
+        "title": "Multiply by 50",
+        "difficulty": "Easy",
+        "description": "Quick method for multiplying by 50.",
+        "steps": [
+            "Example: 62 x 50",
+            "Divide by 2: 62 ÷ 2 = 31",
+            "Multiply by 100: 31 x 100 = 3100"
+        ],
+        "example": "62 x 50 = 3100",
+        "tip": "50 is 100/2, so divide by 2 and multiply by 100!"
+    },
+    {
+        "id": 42,
+        "category": "division",
+        "title": "Divide by 50",
+        "difficulty": "Easy",
+        "description": "Quick method for dividing by 50.",
+        "steps": [
+            "Example: 4100 ÷ 50",
+            "Multiply by 2: 4100 x 2 = 8200",
+            "Divide by 100: 8200 ÷ 100 = 82"
+        ],
+        "example": "4100 ÷ 50 = 82",
+        "tip": "Dividing by 50 is the same as multiplying by 2 and dividing by 100."
+    },
+    {
+        "id": 43,
+        "category": "multiplication",
+        "title": "Multiply by 125",
+        "difficulty": "Medium",
+        "description": "Fast trick for multiplying by 125.",
+        "steps": [
+            "Example: 48 x 125",
+            "Divide by 8: 48 ÷ 8 = 6",
+            "Multiply by 1000: 6 x 1000 = 6000"
+        ],
+        "example": "48 x 125 = 6000",
+        "tip": "125 is 1000/8. This is great if the number is a multiple of 8."
+    },
+    {
+        "id": 44,
+        "category": "division",
+        "title": "Divide by 125",
+        "difficulty": "Medium",
+        "description": "Fast trick for dividing by 125.",
+        "steps": [
+            "Example: 7000 ÷ 125",
+            "Multiply by 8: 7000 x 8 = 56000",
+            "Divide by 1000: 56000 ÷ 1000 = 56"
+        ],
+        "example": "7000 ÷ 125 = 56",
+        "tip": "Dividing by 125 is multiplying by 8 and dividing by 1000."
+    },
+    {
+        "id": 45,
+        "category": "subtraction",
+        "title": "Subtraction by Compensation (Rounding Up)",
+        "difficulty": "Easy",
+        "description": "Subtract an easier number, then add back the difference.",
+        "steps": [
+            "Example: 83 - 48",
+            "Round 48 up to 50.",
+            "Subtract: 83 - 50 = 33",
+            "We subtracted 2 extra (50 - 48), so add 2 back.",
+            "Answer: 33 + 2 = 35"
+        ],
+        "example": "83 - 48 = 35",
+        "tip": "This avoids complex 'borrowing' in your head."
+    },
+    {
+        "id": 46,
+        "category": "multiplication",
+        "title": "Multiply Mixed Numbers Near 100",
+        "difficulty": "Hard",
+        "description": "Multiply numbers where one is above 100 and one is below.",
+        "steps": [
+            "Example: 104 x 97",
+            "Find difference: 104 is +4, 97 is -3",
+            "Cross-add/sub: 104 - 3 = 101 (or 97 + 4 = 101)",
+            "Multiply by base (100): 101 x 100 = 10100",
+            "Multiply differences: (+4) x (-3) = -12",
+            "Combine: 10100 - 12 = 10088"
+        ],
+        "example": "104 x 97 = 10088",
+        "tip": "This is the trickiest base method. Don't forget to multiply the cross-result by 100 before subtracting!"
+    },
+    {
+        "id": 47,
+        "category": "division",
+        "title": "Divisibility by 7 (Double and Subtract)",
+        "difficulty": "Medium",
+        "description": "A recursive method to check for divisibility by 7.",
+        "steps": [
+            "Example: Is 672 divisible by 7?",
+            "Take the last digit: 2",
+            "Double it: 2 × 2 = 4",
+            "Subtract it from the rest of the number: 67 - 4 = 63",
+            "Is the result divisible by 7? Yes, 63 ÷ 7 = 9.",
+            "Therefore, 672 is divisible by 7."
+        ],
+        "example": "672 -> 67 - (2×2) = 63. 63 is divisible by 7.",
+        "tip": "You can repeat the process if the number is still too large. 343 -> 34 - (3×2) = 28. 28 is divisible by 7."
+    },
+    {
+        "id": 48,
+        "category": "division",
+        "title": "Divisibility by 11 (Alternating Sum)",
+        "difficulty": "Medium",
+        "description": "Check divisibility by 11 using an alternating sum of digits.",
+        "steps": [
+            "Example: Is 5841 divisible by 11?",
+            "Start from the right, add and subtract digits alternatingly.",
+            "Calculation: +1 - 4 + 8 - 5",
+            "Result: (1 + 8) - (4 + 5) = 9 - 9 = 0",
+            "If the result is 0 or divisible by 11, the number is divisible by 11."
+        ],
+        "example": "5841 -> 1 - 4 + 8 - 5 = 0. Divisible by 11.",
+        "tip": "This is a fast and powerful check for large numbers."
+    },
+    {
+        "id": 49,
+        "category": "fraction",
+        "title": "Repeating Decimal to Fraction (The 9s Rule)",
+        "difficulty": "Medium",
+        "description": "Convert a simple repeating decimal (like 0.abcabc...) to a fraction.",
+        "steps": [
+            "Example: Convert 0.363636... to a fraction.",
+            "Identify the repeating part: 36",
+            "Count the number of repeating digits: 2",
+            "Create a fraction: repeating part / (that many 9s)",
+            "Fraction: 36 / 99",
+            "Simplify (divide by 9): 4 / 11"
+        ],
+        "example": "0.363636... = 36/99 = 4/11",
+        "tip": "This also works for 0.123123... (123/999) and 0.777... (7/9)."
+    },
+    {
+        "id": 50,
+        "category": "fraction",
+        "title": "Mixed Repeating Decimal to Fraction (The 90s Rule)",
+        "difficulty": "Hard",
+        "description": "Convert a mixed repeating decimal (like 0.12333...) to a fraction.",
+        "steps": [
+            "Example: Convert 0.1666... to a fraction.",
+            "Think of the whole number (without decimal): 16",
+            "Subtract the non-repeating part: 16 - 1 = 15",
+            "This is your numerator: 15",
+            "Denominator: One 9 for each repeating digit ('6') and one 0 for each non-repeating digit ('1'). So, 90.",
+            "Fraction: 15 / 90",
+            "Simplify: 1 / 6"
+        ],
+        "example": "0.1666... = (16 - 1) / 90 = 15/90 = 1/6",
+        "tip": "Example 2: 0.12333... = (123 - 12) / 900 = 111 / 900."
+    },
+    {
+        "id": 51,
+        "category": "square_root",
+        "title": "Estimate Square Roots (Mental Interpolation)",
+        "difficulty": "Hard",
+        "description": "A surprisingly accurate way to estimate square roots of non-perfect squares.",
+        "steps": [
+            "Example: Estimate the square root of 85.",
+            "1. Find nearest perfect squares: √81 = 9 (low) and √100 = 10 (high).",
+            "2. The answer is 9.something.",
+            "3. Find the 'gap' from the low square: 85 - 81 = 4.",
+            "4. Find the 'total gap' between squares: 100 - 81 = 19.",
+            "5. The estimate is 9 and the fraction 4/19.",
+            "6. Approximate 4/19 as 4/20, which is 0.2.",
+            "7. Final Answer: ~9.2"
+        ],
+        "example": "√85 ≈ 9 + (85-81)/(100-81) = 9 + 4/19 ≈ 9.2 (Actual is 9.219...)",
+        "tip": "This method is much more accurate than just guessing."
+    },
+    {
+        "id": 52,
+        "category": "multiplication",
+        "title": "Multiply by 101 (Distributive)",
+        "difficulty": "Easy",
+        "description": "Use the distributive property to quickly multiply by 101.",
+        "steps": [
+            "Example: 67 × 101",
+            "Think: 67 × (100 + 1)",
+            "Distribute: (67 × 100) + (67 × 1)",
+            "Calculate: 6700 + 67",
+            "Answer: 6767"
+        ],
+        "example": "67 × 101 = 6767",
+        "tip": "For any two-digit number, just write it twice! (e.g., 42 x 101 = 4242)"
+    },
+    {
+        "id": 53,
+        "category": "multiplication",
+        "title": "Multiply by Rearranging (Associative)",
+        "difficulty": "Medium",
+        "description": "Change the order of multiplication to make it easier.",
+        "steps": [
+            "Example: 25 × 17 × 4",
+            "Don't calculate left-to-right. It's hard.",
+            "Rearrange the problem: (25 × 4) × 17",
+            "Calculate (25 × 4): 100",
+            "Calculate (100 × 17): 1700",
+            "Answer: 1700"
+        ],
+        "example": "(25 × 4) × 17 = 100 × 17 = 1700",
+        "tip": "Always look for pairs that make 100 (like 25x4, 50x2, 20x5) or 1000 (like 125x8)."
+    },
+    {
+        "id": 54,
+        "category": "multiplication",
+        "title": "Multiply by 1.5 (or 150%)",
+        "difficulty": "Easy",
+        "description": "To multiply by 1.5, just add half of the number to itself.",
+        "steps": [
+            "Example: 48 × 1.5",
+            "Think: 1.5 = 1 + 0.5",
+            "Take the number: 48",
+            "Take half the number: 48 / 2 = 24",
+            "Add them together: 48 + 24 = 72"
+        ],
+        "example": "48 × 1.5 = 48 + (48 / 2) = 48 + 24 = 72",
+        "tip": "This is perfect for calculating a 50% increase."
+    },
+    {
+        "id": 55,
+        "category": "division",
+        "title": "Divide by 1.5",
+        "difficulty": "Medium",
+        "description": "To divide by 1.5, think of it as dividing by 3/2.",
+        "steps": [
+            "Example: 90 ÷ 1.5",
+            "Dividing by 1.5 (or 3/2) is the same as... (multiplying by 2/3)",
+            "1. Divide by 3: 90 / 3 = 30",
+            "2. Multiply by 2: 30 × 2 = 60",
+            "Answer: 60"
+        ],
+        "example": "90 ÷ 1.5 = (90 / 3) × 2 = 60",
+        "tip": "Alternatively, multiply both numbers by 2 to get rid of the decimal: (90x2) ÷ (1.5x2) = 180 ÷ 3 = 60."
+    },
+    {
+        "id": 56,
+        "category": "division",
+        "title": "Check Division by 5",
+        "difficulty": "Easy",
+        "description": "The fastest divisibility check.",
+        "steps": [
+            "Example: Is 1,234,565 divisible by 5?",
+            "Look at the very last digit: 5",
+            "If the last digit is a 0 or a 5, the number is divisible by 5.",
+            "Yes, it is."
+        ],
+        "example": "1,234,565 ends in 5. 1,230 ends in 0. Both are divisible by 5.",
+        "tip": "This is the simplest rule there is!"
+    },
+    {
+        "id": 57,
+        "category": "multiplication",
+        "title": "Squaring 3-Digit Numbers Ending in 5",
+        "difficulty": "Medium",
+        "description": "Extends the 'Squaring Numbers Ending in 5' rule.",
+        "steps": [
+            "Example: 125²",
+            "1. The answer will end in 25.",
+            "2. Take the number *before* the 5: 12",
+            "3. Take the next number up: 13",
+            "4. Multiply them: 12 × 13 = 156",
+            "5. Combine: 156 and 25",
+            "Answer: 15625"
+        ],
+        "example": "125² = (12 × 13) | 25 = 15625",
+        "tip": "To do 12x13 in your head, think (12x12) + 12 = 144 + 12 = 156."
+    },
+    {
+        "id": 58,
+        "category": "addition",
+        "title": "Adding Long Lists (Grouping to 10)",
+        "difficulty": "Medium",
+        "description": "Scan and group numbers to 10s to add columns quickly.",
+        "steps": [
+            "Example: 7 + 9 + 1 + 3 + 8 + 4 + 2 + 6",
+            "Don't add one by one. Scan for pairs that make 10.",
+            "(9 + 1) = 10",
+            "(7 + 3) = 10",
+            "(8 + 2) = 10",
+            "(4 + 6) = 10",
+            "Total: 10 + 10 + 10 + 10 = 40"
+        ],
+        "example": "7+9+1+3+8+4+2+6 = (9+1) + (7+3) + (8+2) + (4+6) = 40",
+        "tip": "This is the fastest way to add a long column of single-digit numbers. Look for 10s!"
+    },
+    {
+        "id": 59,
+        "category": "multiplication",
+        "title": "Multiply by Numbers Ending in Zeros",
+        "difficulty": "Easy",
+        "description": "The simplest trick: ignore zeros, multiply, then add them all back.",
+        "steps": [
+            "Example: 400 × 70",
+            "1. Count total zeros: 3 (two from 400, one from 70)",
+            "2. Multiply the non-zero parts: 4 × 7 = 28",
+            "3. Add the 3 zeros back to the result: 28,000",
+            "Answer: 28000"
+        ],
+        "example": "400 × 70 = 28,000",
+        "tip": "This reduces large problems into simple, single-digit multiplication."
+    },
+    {
+        "id": 60,
+        "category": "multiplication",
+        "title": "Difference of Squares (a² - b²)",
+        "difficulty": "Medium",
+        "description": "Use (a+b)(a-b) = a² - b² to multiply numbers equidistant from a round number.",
+        "steps": [
+            "Example: 48 × 52",
+            "1. Find the 'middle' number: 50",
+            "2. Rewrite the problem: (50 - 2) × (50 + 2)",
+            "3. This is the same as 50² - 2²",
+            "4. Calculate: 2500 - 4 = 2496",
+            "Answer: 2496"
+        ],
+        "example": "48 × 52 = (50-2)(50+2) = 50² - 2² = 2500 - 4 = 2496",
+        "tip": "This is fantastic for multiplying numbers like 59x61, 97x103, etc."
+    },
+    {
+        "id": 61,
+        "category": "multiplication",
+        "title": "Multiply by 75",
+        "difficulty": "Medium",
+        "description": "Multiplying by 75 is the same as multiplying by 300 and dividing by 4.",
+        "steps": [
+            "Example: 36 × 75",
+            "1. Think of 75 as 300 / 4",
+            "2. Multiply by 300: 36 × 300 = 10,800",
+            "3. Divide by 4: 10,800 / 4 = 2,700",
+            "Answer: 2700"
+        ],
+        "example": "36 × 75 = (36 × 300) / 4 = 10800 / 4 = 2700",
+        "tip": "Alternatively, 75 is 3/4 of 100. (36/4) = 9. 9 x 3 = 27. Add two zeros: 2700."
+    },
+    {
+        "id": 62,
+        "category": "multiplication",
+        "title": "Multiply by 9 (The 10-1 Trick)",
+        "difficulty": "Easy",
+        "description": "Multiplying by 9 is the same as multiplying by 10 and subtracting the number.",
+        "steps": [
+            "Example: 65 × 9",
+            "1. Think of 9 as (10 - 1)",
+            "2. Multiply by 10: 65 × 10 = 650",
+            "3. Subtract the original number: 650 - 65",
+            "4. Calculate: 585",
+            "Answer: 585"
+        ],
+        "example": "65 × 9 = 650 - 65 = 585",
+        "tip": "This is often easier than the finger trick for larger numbers."
+    },
+    {
+        "id": 63,
+        "category": "square",
+        "title": "Foundation: Memorize Squares 1-20",
+        "difficulty": "Easy",
+        "description": "The single most useful foundation for speed math is knowing these by heart.",
+        "steps": [
+            "1²=1, 2²=4, 3²=9, 4²=16, 5²=25, 6²=36, 7²=49, 8²=64, 9²=81, 10²=100",
+            "11²=121, 12²=144, 13²=169, 14²=196, 15²=225, 16²=256, 17²=289, 18²=324, 19²=361, 20²=400"
+        ],
+        "example": "Knowing 16²=256 instantly saves huge calculation time.",
+        "tip": "This isn't a 'trick' but a 'tool'. Knowing these makes other tricks (like Difference of Squares) possible."
+    },
+    {
+        "id": 64,
+        "category": "square_root",
+        "title": "Find Last Digit of a Square",
+        "difficulty": "Easy",
+        "description": "Quickly identify if a number *cannot* be a perfect square.",
+        "steps": [
+            "A perfect square can only end in 0, 1, 4, 5, 6, or 9.",
+            "If a number ends in 2, 3, 7, or 8, it is NOT a perfect square.",
+            "Rule: 1/9 -> ends in 1",
+            "Rule: 2/8 -> ends in 4",
+            "Rule: 3/7 -> ends in 9",
+            "Rule: 4/6 -> ends in 6",
+            "Rule: 5 -> ends in 5, 0 -> ends in 0"
+        ],
+        "example": "Can 123,456,787 be a perfect square? No, it ends in 7.",
+        "tip": "This is a fast elimination check for square root problems."
+    },
+    {
+        "id": 65,
+        "category": "cube_root",
+        "title": "Find Last Digit of a Cube",
+        "difficulty": "Easy",
+        "description": "Finding the last digit of a cube is easy because every digit is unique.",
+        "steps": [
+            "The last digit of the cube root matches the last digit of the cube, with a few pairs.",
+            "1³ ends in 1. 4³ ends in 4. 5³ ends in 5. 6³ ends in 6. 9³ ends in 9. 0³ ends in 0.",
+            "The pairs: 2³=8 (ends in 8), 8³=512 (ends in 2).",
+            "The pairs: 3³=27 (ends in 7), 7³=343 (ends in 3)."
+        ],
+        "example": "The cube root of a number ending in 7 must end in 3. (e.g., ³√27)",
+        "tip": "Pairs to memorize: (2,8) and (3,7). All others are themselves."
+    },
+    {
+        "id": 66,
+        "category": "cube_root",
+        "title": "Estimate Cube Roots (The 2-Part Trick)",
+        "difficulty": "Master",
+        "description": "Find the cube root of a perfect cube (up to 6 digits) almost instantly.",
+        "steps": [
+            "You MUST memorize cubes 1-10: 1, 8, 27, 64, 125, 216, 343, 512, 729, 1000",
+            "Example: Find cube root of 175,616",
+            "1. Last Digit: Number ends in 6. Only 6³ (216) ends in 6. So, the last digit of the answer is 6.",
+            "2. First Digit(s): Ignore the last 3 digits (616). Look at the remaining part: 175.",
+            "3. Find where 175 fits: It's between 5³ (125) and 6³ (216).",
+            "4. Always take the *smaller* number. The first digit is 5.",
+            "5. Combine: 5 and 6. Answer: 56."
+        ],
+        "example": "³√175,616 = 56",
+        "tip": "This trick feels like magic, but it's pure logic. It works every time for perfect cubes."
+    },
+    {
+        "id": 67,
+        "category": "percentage",
+        "title": "Percentage Change",
+        "difficulty": "Medium",
+        "description": "Calculate the percentage increase or decrease between two numbers.",
+        "steps": [
+            "Formula: (New Value - Old Value) / Old Value * 100",
+            "Example: Price changed from $50 to $60.",
+            "1. New - Old: 60 - 50 = 10 (This is the 'change')",
+            "2. Change / Old: 10 / 50 = 0.2",
+            "3. Convert to percent: 0.2 * 100 = 20%",
+            "Answer: A 20% increase."
+        ],
+        "example": "From 50 to 60 is a 20% increase. From 60 to 50 is (50-60)/60 = -16.67% decrease.",
+        "tip": "The 'Old Value' (the starting point) is always the denominator. This is the most common mistake."
+    },
+    {
+        "id": 68,
+        "category": "percentage",
+        "title": "What Percent is A of B?",
+        "difficulty": "Easy",
+        "description": "Find what percentage one number is of another.",
+        "steps": [
+            "Formula: (Part / Whole) * 100",
+            "Example: What percent is 7 of 28?",
+            "1. Part / Whole: 7 / 28",
+            "2. Simplify: 1 / 4",
+            "3. Convert to decimal: 0.25",
+            "4. Convert to percent: 25%"
+        ],
+        "example": "7 is 25% of 28.",
+        "tip": "Think of the 'of' number as the 'whole' (the denominator)."
+    },
+    {
+        "id": 69,
+        "category": "estimation",
+        "title": "Estimation: Front-End Rounding",
+        "difficulty": "Easy",
+        "description": "A very fast way to get a 'ballpark' figure.",
+        "steps": [
+            "Example: 482 + 331 + 790",
+            "1. Round each number to its first digit (its 'front end').",
+            "2. 482 -> 500 (or 400, depending on rule. 500 is more accurate). Let's use 500.",
+            "3. 331 -> 300",
+            "4. 790 -> 800",
+            "5. Add the rounded numbers: 500 + 300 + 800 = 1600",
+            "Actual Answer: 1603. Very close!"
+        ],
+        "example": "482 + 331 + 790 ≈ 500 + 300 + 800 = 1600",
+        "tip": "This is the 'good enough' calculation you use at the grocery store."
+    },
+    {
+        "id": 70,
+        "category": "estimation",
+        "title": "Estimation: Compatible Numbers",
+        "difficulty": "Easy",
+        "description": "Adjust numbers slightly to make them 'friendly' and easier to work with.",
+        "steps": [
+            "Example: 23 × 68",
+            "1. These numbers are ugly.",
+            "2. Change them to 'compatible' numbers: 25 × 70",
+            "3. 25 × 7 = 175",
+            "4. Add the zero: 1750",
+            "Actual Answer: 1564. Good for a quick estimate."
+        ],
+        "example": "312 ÷ 8 -> 320 ÷ 8 = 40 (Actual is 39)",
+        "tip": "Look for numbers that are multiples of 10, 25, 5, etc."
+    },
+    {
+        "id": 71,
+        "category": "subtraction",
+        "title": "Subtraction by Equal Addition",
+        "difficulty": "Medium",
+        "description": "Make subtraction easier by adding the same amount to both numbers.",
+        "steps": [
+            "Example: 85 - 38",
+            "1. 'Borrowing' is annoying. Let's get rid of it.",
+            "2. Add 2 to both numbers to make 38 a round 40.",
+            "3. Problem becomes: (85 + 2) - (38 + 2)",
+            "4. Calculate: 87 - 40",
+            "5. Answer: 47",
+            "Original problem: 85 - 38 = 47. It works!"
+        ],
+        "example": "85 - 38 = 87 - 40 = 47",
+        "tip": "This changes the numbers but keeps the *difference* between them the same."
+    },
+    {
+        "id": 72,
+        "category": "fraction",
+        "title": "Adding/Subtracting Fractions (Butterfly Method)",
+        "difficulty": "Easy",
+        "description": "A visual and fast way to add or subtract any two fractions.",
+        "steps": [
+            "Example: 2/5 + 3/7",
+            "1. Cross-Multiply (Up): 2 × 7 = 14. Write 14 on the left 'wing'.",
+            "2. Cross-Multiply (Up): 3 × 5 = 15. Write 15 on the right 'wing'.",
+            "3. Add the 'wings' for the numerator: 14 + 15 = 29",
+            "4. Multiply the denominators for the denominator: 5 × 7 = 35",
+            "Answer: 29 / 35"
+        ],
+        "example": "2/5 + 3/7 = (14 + 15) / 35 = 29/35",
+        "tip": "This is the fastest method, but you may need to simplify the result afterwards."
+    },
+    {
+        "id": 73,
+        "category": "division",
+        "title": "Check Division by 10, 5, 2",
+        "difficulty": "Easy",
+        "description": "The 'last digit' rules for the most common divisors.",
+        "steps": [
+            "Divisible by 10? Last digit must be 0.",
+            "Divisible by 5? Last digit must be 0 or 5.",
+            "Divisible by 2? Last digit must be 0, 2, 4, 6, or 8 (an even number)."
+        ],
+        "example": "4,560 is divisible by 10, 5, and 2.",
+        "tip": "If a number is divisible by 10, it's automatically divisible by 5 and 2."
+    },
+    {
+        "id": 74,
+        "category": "general",
+        "title": "Find Leap Year",
+        "difficulty": "Easy",
+        "description": "The exact rule for finding a leap year.",
+        "steps": [
+            "A year is a leap year if it is...",
+            "1. Divisible by 4 (e.g., 2016, 2020, 2024)",
+            "2. BUT... if it's a century year (ends in 00), it must ALSO be divisible by 400.",
+            "Example 1: 1900. It's divisible by 4, but NOT by 400. So, 1900 was *not* a leap year.",
+            "Example 2: 2000. It's divisible by 4 AND 400. So, 2000 *was* a leap year."
+        ],
+        "example": "2024 is a leap year (divisible by 4). 2100 will NOT be (divisible by 4, not by 400).",
+        "tip": "This is a classic 'trick' question in logic and math problems."
+    },
+    {
+        "id": 75,
+        "category": "general",
+        "title": "Calculate the Mean (Average)",
+        "difficulty": "Easy",
+        "description": "The most common 'average'. Sum all values and divide by the count.",
+        "steps": [
+            "Example: Find the average of 10, 15, 20",
+            "1. Sum the values: 10 + 15 + 20 = 45",
+            "2. Count the values: There are 3 numbers.",
+            "3. Divide Sum by Count: 45 / 3 = 15",
+            "Answer: The average is 15."
+        ],
+        "example": "Average of (10, 15, 20) is 15.",
+        "tip": "If numbers are sequential (like 10, 11, 12, 13, 14), the average is just the middle number (12)."
+    },
+    {
+        "id": 76,
+        "category": "multiplication",
+        "title": "Doubling and Halving",
+        "difficulty": "Medium",
+        "description": "Make multiplication easy by halving one side and doubling the other.",
+        "steps": [
+            "Best when one number is even.",
+            "Example: 16 × 35",
+            "1. Halve 16 -> 8. Double 35 -> 70. Problem becomes 8 × 70.",
+            "2. Halve 8 -> 4. Double 70 -> 140. Problem becomes 4 × 140.",
+            "3. Halve 4 -> 2. Double 140 -> 280. Problem becomes 2 × 280.",
+            "4. Halve 2 -> 1. Double 280 -> 560. Problem becomes 1 × 560.",
+            "Answer: 560"
+        ],
+        "example": "16 × 35 = 8 × 70 = 4 × 140 = 2 × 280 = 1 × 560 = 560",
+        "tip": "This is great for multiplying by 5, 15, 25, 35, etc. (e.g., 88 x 5 = 44 x 10 = 440)"
+    },
+    {
+        "id": 77,
+        "category": "multiplication",
+        "title": "Factoring for Multiplication",
+        "difficulty": "Medium",
+        "description": "Break down hard numbers into 'friendly' factors.",
+        "steps": [
+            "Example: 48 × 25",
+            "1. 48 is hard. 25 is friendly (4 x 25 = 100).",
+            "2. Factor 48 into (12 × 4).",
+            "3. Problem becomes: 12 × 4 × 25",
+            "4. Rearrange (Associative Property): 12 × (4 × 25)",
+            "5. Calculate: 12 × 100 = 1200",
+            "Answer: 1200"
+        ],
+        "example": "48 × 25 = (12 × 4) × 25 = 12 × (4 × 25) = 12 × 100 = 1200",
+        "tip": "Always look for factors like 4, 8, 2, 5, 25, 125."
+    },
+    {
+        "id": 78,
+        "category": "square",
+        "title": "Squaring Numbers 90-99 (Base 100)",
+        "difficulty": "Medium",
+        "description": "A very fast way to square numbers just below 100.",
+        "steps": [
+            "Example: 97²",
+            "1. Find complement from 100: 100 - 97 = 3",
+            "2. First Part (Subtract): Subtract complement from the number: 97 - 3 = 94.",
+            "3. Second Part (Square): Square the complement: 3² = 9.",
+            "4. Write as two digits: 09",
+            "5. Combine: 94 | 09 -> 9409"
+        ],
+        "example": "97² = (97-3) | (3²) = 94 | 09 = 9409",
+        "tip": "This is the same as the Nikhilam (ID 10) trick, but for squaring (97x97)."
+    },
+    {
+        "id": 79,
+        "category": "square",
+        "title": "Squaring Numbers 101-110 (Base 100)",
+        "difficulty": "Medium",
+        "description": "A very fast way to square numbers just above 100.",
+        "steps": [
+            "Example: 104²",
+            "1. Find surplus over 100: 104 - 100 = 4",
+            "2. First Part (Add): Add surplus to the number: 104 + 4 = 108.",
+            "3. Second Part (Square): Square the surplus: 4² = 16.",
+            "4. Write as two digits: 16",
+            "5. Combine: 108 | 16 -> 10816"
+        ],
+        "example": "104² = (104+4) | (4²) = 108 | 16 = 10816",
+        "tip": "This is the same as the Nikhilam (ID 33) trick, but for squaring (104x104)."
+    },
+    {
+        "id": 80,
+        "category": "percentage",
+        "title": "Find 1% and 0.1% (Decimal Shift)",
+        "difficulty": "Easy",
+        "description": "The fastest calculation: just move the decimal point.",
+        "steps": [
+            "Example Number: 5,300",
+            "To find 100%: 5,300",
+            "To find 10%: Move decimal left 1 place: 530.0",
+            "To find 1%: Move decimal left 2 places: 53.00",
+            "To find 0.1%: Move decimal left 3 places: 5.300"
+        ],
+        "example": "1% of 5300 is 53. 1% of 81.2 is 0.812.",
+        "tip": "This is the foundation for the 'Building Block' (ID 38) method."
+    },
+    {
+        "id": 81,
+        "category": "square_root",
+        "title": "Find Root of 4-Digit Perfect Squares",
+        "difficulty": "Master",
+        "description": "Instantly find the square root of a 4-digit perfect square.",
+        "steps": [
+            "Example: Find \u221A5329",
+            "1. Last Digit: Number ends in 9. Root must end in 3 or 7 (since 3\u00B2=9, 7\u00B2=49).",
+            "2. First Digits: Ignore last two digits (29). Look at 53.",
+            "3. Find where 53 fits: It's between 7\u00B2 (49) and 8\u00B2 (64).",
+            "4. Always take the *smaller* number. The first digit is 7.",
+            "5. Two possibilities: 73 or 77.",
+            "6. Test the middle: 75\u00B2 = (7 \u00D7 8) | 25 = 5625.",
+            "7. Since 5329 < 5625, the answer must be the smaller one: 73."
+        ],
+        "example": "\u221A5329 = 73",
+        "tip": "Use the 'Squaring 5' trick (ID 12) to test the midpoint (e.g., 75\u00B2) super-fast."
+    },
+    {
+        "id": 82,
+        "category": "square_root",
+        "title": "Simplifying Square Roots (Factoring)",
+        "difficulty": "Easy",
+        "description": "Break down a square root into its simplest form by factoring.",
+        "steps": [
+            "Example: Simplify \u221A72",
+            "1. Find the largest perfect square that divides 72. (4, 9, 16, 25, 36...)",
+            "2. 36 is the largest perfect square factor: 72 = 36 \u00D7 2.",
+            "3. Break the root: \u221A72 = \u221A(36 \u00D7 2)",
+            "4. Use the rule \u221A(ab) = \u221Aa \u00D7 \u221Ab",
+            "5. Solve: \u221A36 \u00D7 \u221A2 = 6\u221A2"
+        ],
+        "example": "\u221A72 = 6\u221A2",
+        "tip": "Knowing your perfect squares (4, 9, 16, 25, 36, 49...) is essential for this!"
+    },
+    {
+        "id": 83,
+        "category": "square_root",
+        "title": "Multiplying Square Roots",
+        "difficulty": "Easy",
+        "description": "Combine two square roots by multiplying outsides and insides.",
+        "steps": [
+            "Example: (5\u221A3) \u00D7 (2\u221A6)",
+            "1. Multiply the 'outside' numbers: 5 \u00D7 2 = 10",
+            "2. Multiply the 'inside' (radicand) numbers: \u221A3 \u00D7 \u221A6 = \u221A18",
+            "3. Combine: 10\u221A18",
+            "4. Always simplify the result: \u221A18 = \u221A(9 \u00D7 2) = 3\u221A2",
+            "5. Final Answer: 10 \u00D7 (3\u221A2) = 30\u221A2"
+        ],
+        "example": "(5\u221A3) \u00D7 (2\u221A6) = 30\u221A2",
+        "tip": "Multiply outsides with outsides, insides with insides. Then simplify!"
+    },
+    {
+        "id": 84,
+        "category": "square_root",
+        "title": "Dividing Square Roots",
+        "difficulty": "Easy",
+        "description": "Combine two square roots into one using division.",
+        "steps": [
+            "Example: \u221A75 / \u221A3",
+            "1. Use the rule \u221Aa / \u221Ab = \u221A(a/b)",
+            "2. Combine under one root: \u221A(75 / 3)",
+            "3. Do the division: \u221A25",
+            "4. Solve: 5"
+        ],
+        "example": "\u221A75 / \u221A3 = 5",
+        "tip": "This is often much easier than simplifying \u221A75 first. Look for 'friendly' division."
+    },
+    {
+        "id": 85,
+        "category": "square_root",
+        "title": "Adding and Subtracting Square Roots",
+        "difficulty": "Easy",
+        "description": "Combine square roots by treating them as 'like terms'.",
+        "steps": [
+            "Example: 5\u221A7 + 2\u221A7 - \u221A7",
+            "1. Check that the radicands (number inside) are the same. Here, they are all 7.",
+            "2. Treat \u221A7 like 'x'. The problem is 5x + 2x - 1x.",
+            "3. Add/subtract the coefficients: 5 + 2 - 1 = 6",
+            "4. Answer: 6\u221A7"
+        ],
+        "example": "5\u221A7 + 2\u221A7 - \u221A7 = 6\u221A7",
+        "tip": "You MUST simplify radicals first! \u221A8 + \u221A18 becomes 2\u221A2 + 3\u221A2, which equals 5\u221A2."
+    },
+    {
+        "id": 86,
+        "category": "square_root",
+        "title": "Rationalizing the Denominator (Simple)",
+        "difficulty": "Medium",
+        "description": "Remove a square root from the bottom (denominator) of a fraction.",
+        "steps": [
+            "Example: 5 / \u221A3",
+            "1. You cannot leave a root in the denominator.",
+            "2. Multiply the top AND bottom by the root (\u221A3). This is just multiplying by 1.",
+            "3. Top: 5 \u00D7 \u221A3 = 5\u221A3",
+            "4. Bottom: \u221A3 \u00D7 \u221A3 = 3",
+            "5. Answer: (5\u221A3) / 3"
+        ],
+        "example": "5 / \u221A3 = (5\u221A3) / 3",
+        "tip": "Multiplying any square root by itself (e.g., \u221Ak \u00D7 \u221Ak) simply gives 'k'."
+    },
+    {
+        "id": 87,
+        "category": "square_root",
+        "title": "Rationalizing the Denominator (Conjugate)",
+        "difficulty": "Hard",
+        "description": "Use the 'Difference of Squares' trick to rationalize a binomial denominator.",
+        "steps": [
+            "Example: 4 / (5 + \u221A2)",
+            "1. Find the 'conjugate' of the bottom (change the sign): 5 - \u221A2",
+            "2. Multiply top and bottom by this conjugate.",
+            "3. Top: 4 \u00D7 (5 - \u221A2) = 20 - 4\u221A2",
+            "4. Bottom: (5 + \u221A2)(5 - \u221A2). This is (a+b)(a-b) = a\u00B2 - b\u00B2",
+            "5. Bottom = 5\u00B2 - (\u221A2)\u00B2 = 25 - 2 = 23",
+            "6. Answer: (20 - 4\u221A2) / 23"
+        ],
+        "example": "4 / (5 + \u221A2) = (20 - 4\u221A2) / 23",
+        "tip": "This uses the 'Difference of Squares' (ID 60) trick in a new way!"
+    },
+    {
+        "id": 88,
+        "category": "square_root",
+        "title": "Check: Digital Root of Perfect Squares",
+        "difficulty": "Medium",
+        "description": "A perfect square's digital root (sum of digits, repeated) can only be 1, 4, 7, or 9.",
+        "steps": [
+            "Example: Is 57,123 a perfect square?",
+            "1. Find the digital root (sum of digits): 5 + 7 + 1 + 2 + 3 = 18",
+            "2. Keep summing: 1 + 8 = 9",
+            "3. The root is 9. It *could* be a perfect square.",
+            "Example 2: Is 123,452?",
+            "1. Sum: 1+2+3+4+5+2 = 17",
+            "2. Sum: 1+7 = 8",
+            "3. The root is 8. It is *NOT* a perfect square."
+        ],
+        "example": "146 -> 1+4+6=11 -> 1+1=2. Fails the test, so 146 is not a perfect square.",
+        "tip": "This is an *elimination* test. If it fails, it's not a square. If it passes, it *might* be."
+    },
+    {
+        "id": 89,
+        "category": "square_root",
+        "title": "Check: Trailing Zeros",
+        "difficulty": "Easy",
+        "description": "A perfect square must have an EVEN number of zeros at the end.",
+        "steps": [
+            "Example 1: Is 14,000 a perfect square? No (3 zeros, which is odd).",
+            "Example 2: Is 4,900 a perfect square? Yes (2 zeros, and 49 is a square).",
+            "Example 3: Is 1,000,000 a perfect square? Yes (6 zeros, and 1 is a square)."
+        ],
+        "example": "\u221A4900 = \u221A49 \u00D7 \u221A100 = 7 \u00D7 10 = 70.",
+        "tip": "To find the root, take the root of the non-zero part and add HALF the zeros."
+    },
+    {
+        "id": 90,
+        "category": "square_root",
+        "title": "Estimation: Babylonian Method (Newton's)",
+        "difficulty": "Hard",
+        "description": "A recursive method to get an extremely accurate estimate.",
+        "steps": [
+            "Example: Estimate \u221A10",
+            "1. Start with a guess (e.g., g = 3, since 3\u00B2=9).",
+            "2. Divide the number by the guess: 10 / 3 \u2248 3.33",
+            "3. Average the guess and the result: (3 + 3.33) / 2 = 6.33 / 2 = 3.166",
+            "4. This is your new guess (g\u2082 = 3.166). It's already very close!",
+            "5. Repeat for more accuracy: 10 / 3.166 = 3.158. Average (3.166 + 3.158) / 2 = 3.162"
+        ],
+        "example": "\u221A10 \u2248 3.162 (Actual is 3.16227...)",
+        "tip": "The formula is (guess + number/guess) / 2. This is the algorithm calculators use!"
+    },
+    {
+        "id": 91,
+        "category": "square_root",
+        "title": "Estimation: Binomial Approximation",
+        "difficulty": "Master",
+        "description": "Use \u221A(1+x) \u2248 1 + x/2 for very small 'x'.",
+        "steps": [
+            "Example: Estimate \u221A1.04",
+            "1. Rewrite as \u221A(1 + 0.04)",
+            "2. Here, x = 0.04",
+            "3. Use the formula 1 + x/2",
+            "4. Calculate: 1 + 0.04 / 2 = 1 + 0.02 = 1.02",
+            "Example 2: \u221A98",
+            "1. \u221A(100 - 2) = \u221A(100(1 - 0.02)) = 10 \u00D7 \u221A(1 - 0.02)",
+            "2. 10 \u00D7 (1 - 0.02/2) = 10 \u00D7 (1 - 0.01) = 10 \u00D7 0.99 = 9.9"
+        ],
+        "example": "\u221A1.04 \u2248 1.02 (Actual is 1.0198...)",
+        "tip": "This is a staple in physics and engineering for quick, accurate estimates."
+    },
+    {
+        "id": 92,
+        "category": "square_root",
+        "title": "Comparing Radicals",
+        "difficulty": "Medium",
+        "description": "Find which radical expression is larger by 'un-simplifying'.",
+        "steps": [
+            "Example: Which is larger, 5\u221A3 or 4\u221A5?",
+            "1. You can't compare them directly.",
+            "2. Put the outside number back inside (by squaring it).",
+            "3. 5\u221A3 = \u221A(5\u00B2 \u00D7 3) = \u221A(25 \u00D7 3) = \u221A75",
+            "4. 4\u221A5 = \u221A(4\u00B2 \u00D7 5) = \u221A(16 \u00D7 5) = \u221A80",
+            "5. Now compare: \u221A75 < \u221A80",
+            "6. Answer: 4\u221A5 is larger."
+        ],
+        "example": "5\u221A3 (\u221A75) < 4\u221A5 (\u221A80)",
+        "tip": "This is the reverse of simplifying! It makes comparisons easy."
+    },
+    {
+        "id": 93,
+        "category": "square_root",
+        "title": "Nested Radical (Infinite Product)",
+        "difficulty": "Hard",
+        "description": "Solve y = \u221A(x\u221A(x\u221A(x...)))",
+        "steps": [
+            "Example: Find \u221A(7\u221A(7\u221A(7...)))",
+            "1. Let y = the whole expression.",
+            "2. y = \u221A(7 \u00D7 (\u221A(7\u221A(7...))))",
+            "3. Notice the part in parentheses is just y again!",
+            "4. So, y = \u221A(7y)",
+            "5. Square both sides: y\u00B2 = 7y",
+            "6. Divide by y: y = 7"
+        ],
+        "example": "\u221A(7\u221A(7\u221A(7...))) = 7",
+        "tip": "For an infinite product, the answer is just the number itself!"
+    },
+    {
+        "id": 94,
+        "category": "square_root",
+        "title": "Nested Radical (Infinite Sum)",
+        "difficulty": "Master",
+        "description": "Solve y = \u221A(x + \u221A(x + \u221A(x...)))",
+        "steps": [
+            "Example: Find \u221A(12 + \u221A(12 + \u221A(12...)))",
+            "1. Let y = the whole expression.",
+            "2. y = \u221A(12 + (\u221A(12 + \u221A(12...))))",
+            "3. Substitute y: y = \u221A(12 + y)",
+            "4. Square both sides: y\u00B2 = 12 + y",
+            "5. Rearrange into a quadratic: y\u00B2 - y - 12 = 0",
+            "6. Factor: (y - 4)(y + 3) = 0",
+            "7. Since y must be positive, y = 4."
+        ],
+        "example": "\u221A(12 + \u221A(12 + \u221A(12...))) = 4",
+        "tip": "Trick: Find two consecutive numbers that multiply to x. The answer is the bigger one. (12 = 3 \u00D7 4, so answer is 4). For \u221A(30+...) (5 \u00D7 6), the answer is 6."
+    },
+    {
+        "id": 95,
+        "category": "square_root",
+        "title": "Root of Numbers Ending in 25",
+        "difficulty": "Medium",
+        "description": "Find the square root of a perfect square that ends in 25.",
+        "steps": [
+            "Example: Find \u221A1225",
+            "1. We know the answer must end in 5.",
+            "2. Look at the number *before* the 25: 12",
+            "3. Find two consecutive numbers that multiply to 12. Answer: 3 and 4.",
+            "4. Take the *smaller* number (3) and append the 5.",
+            "5. Answer: 35."
+        ],
+        "example": "\u221A1225. Look at 12. 12 = 3 \u00D7 4. Answer is 35.",
+        "tip": "This is the reverse of the 'Squaring Numbers Ending in 5' (ID 12) trick."
+    }
+]

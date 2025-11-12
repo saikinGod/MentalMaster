@@ -7,68 +7,73 @@ export default function Home() {
     <>
       {/* Top Section: Hero Banner */}
       <section
-        className="flex w-screen min-h-[70vh] items-center
+        className="flex flex-col-reverse md:flex-row items-center justify-between 
+                   w-full min-h-[80vh] 
                    bg-linear-to-br from-gray-900 via-gray-950 to-black
-                   lg:px-16 md:px-10 sm:px-6 px-4 py-12" // Added padding and responsive width
+                   px-4 sm:px-6 md:px-10 lg:px-16 py-12 gap-10"
       >
-        {/* Left Section: Welcome Message and Call to Action */}
-        <div className="lg:w-1/2 md:w-2/3 w-full flex flex-col justify-center text-white pr-8">
-          <p className="text-gray-400 text-lg md:text-xl lg:text-3xl mb-2">
+        {/* Left Section: Text + CTA */}
+        <div className="flex flex-col justify-center text-white w-full md:w-1/2 text-center md:text-left">
+          <p className="text-gray-400 text-lg sm:text-xl md:text-2xl mb-2">
             Welcome to
           </p>
-          <h1 className="font-extrabold text-5xl leading-tight mb-8">
-            Mental Master - Unlock <br />Your inner Calculator!
+          <h1 className="font-extrabold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6">
+            Mental Master — Unlock <br className="hidden sm:block" />
+            Your Inner Calculator!
           </h1>
-          <Link href="/home" className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-3 px-8 rounded-lg w-fit transition duration-300 ease-in-out text-lg">
+          <Link
+            href="/home"
+            className="mx-auto md:mx-0 bg-teal-500 hover:bg-teal-600 text-white 
+                       font-bold py-3 px-8 rounded-lg w-fit
+                       transition duration-300 ease-in-out text-lg shadow-lg"
+          >
             Start Your Journey
           </Link>
         </div>
 
-        {/* Right Section: The Brain/Calculator Image */}
-        <div className="lg:w-1/2 md:w-1/3 hidden md:flex items-center justify-center relative">
-          {/* Using next/image for optimized images */}
-          {/* Make sure 'brain-illustration.png' is in your 'public' directory */}
+        {/* Right Section: Brain Image */}
+        <div className="flex justify-center md:justify-end w-full md:w-1/2">
           <Image
-            src="/brain-illustration.png" // Path to your image in the public directory
-            alt="Abstract illustration of a brain with mathematical symbols, representing mental calculation and speed."
-            width={400} // Adjust width as needed
-            height={400} // Adjust height as needed
-            objectFit="contain"
-            className="rounded-full border-gray-800 border-4" // Applying the rounded-full class for circular shape
-            priority // Prioritize loading for LCP
+            src="/brain-illustration.png"
+            alt="Abstract brain with math symbols"
+            width={400}
+            height={400}
+            className="rounded-full border-4 border-gray-800 max-w-[80%] sm:max-w-[60%] md:max-w-[75%] lg:max-w-[400px]"
+            priority
           />
         </div>
       </section>
 
-      {/* Bottom Section: What You'll Experience */}
-      <section className="bg-gray-900 w-screen min-h-[30vh] py-12 lg:py-20 flex flex-col items-center justify-center text-white">
-        <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
+      {/* ⚡ Bottom Section: Experience */}
+      <section className="bg-gray-900 w-full py-12 md:py-20 text-white text-center">
+        <h2 className="text-3xl sm:text-4xl font-bold mb-10">
           What You'll Experience
         </h2>
-        <div className="flex flex-row justify-center gap-8 lg:gap-16 max-w-6xl mx-auto">
-          {/* Dynamic Challenges */}
-          <div className="flex flex-col items-center text-center p-3 bg-gray-800 rounded">
+
+        <div className="flex flex-wrap justify-center gap-6 md:gap-10 lg:gap-16 max-w-6xl mx-auto px-4">
+          {/* Card 1 */}
+          <div className="flex flex-col items-center text-center bg-gray-800 rounded-2xl p-6 w-full sm:w-[300px] transition hover:scale-105 hover:bg-gray-700 duration-300">
             <CircleGauge size={60} strokeWidth={1.5} className="text-teal-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Dynamic Challenges</h3>
-            <p className="text-gray-400 max-w-xs">
+            <p className="text-gray-400">
               Dive into endless, challenging math problems tailored to boost your speed.
             </p>
           </div>
 
-          {/* Speed & Accuracy Training */}
-          <div className="flex flex-col items-center text-center p-3 bg-gray-800 rounded">
+          {/* Card 2 */}
+          <div className="flex flex-col items-center text-center bg-gray-800 rounded-2xl p-6 w-full sm:w-[300px] transition hover:scale-105 hover:bg-gray-700 duration-300">
             <Brain size={60} strokeWidth={1.5} className="text-teal-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Speed & Accuracy Training</h3>
-            <p className="text-gray-400 max-w-xs">
+            <p className="text-gray-400">
               Refine your ability to solve complex calculations quickly and correctly.
             </p>
           </div>
 
-          {/* Cognitive Enhancement */}
-          <div className="flex flex-col items-center text-center p-3 bg-gray-800 rounded">
+          {/* Card 3 */}
+          <div className="flex flex-col items-center text-center bg-gray-800 rounded-2xl p-6 w-full sm:w-[300px] transition hover:scale-105 hover:bg-gray-700 duration-300">
             <Lightbulb size={60} strokeWidth={1.5} className="text-teal-400 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Cognitive Enhancement</h3>
-            <p className="text-gray-400 max-w-xs">
+            <p className="text-gray-400">
               Improve focus, memory, and overall problem-solving skills beyond math.
             </p>
           </div>
