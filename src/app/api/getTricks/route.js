@@ -14,6 +14,7 @@ export async function GET(request) {
 
         // Fetch paginated tricks
         const tricks = await Trick.find()
+            .sort({_id:-1})
             .skip(skip)
             .limit(limit);
 
